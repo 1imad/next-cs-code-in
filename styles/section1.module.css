@@ -1,0 +1,137 @@
+.smallbanner {
+    background: linear-gradient(90deg, #E7E7E7 0%, rgba(81, 78, 184, 0) 101.57%);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 25px 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border: 1px solid #c9c9c9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.smallbannerheading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 20px;
+    line-height: 18px;
+}
+
+.arrowRight {
+    position: absolute;
+    right: 25px;
+}
+
+.heading {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 40px;
+    text-align: center;
+    margin: 8rem 0 2rem;
+}
+
+.textBlue {
+    color: blue;
+}
+
+.heading2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0 4rem 4rem 4rem;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    position: relative;
+}
+
+.cardImg {
+    height: 260px;
+    width: 398px !important;
+    object-fit: cover;
+}
+
+.cardBody {
+    background-color: blue;
+    color: #ffff !important;
+    font-family: 'Montserrat';
+    border: 2px soild rgb(0, 0, 255) !important;
+    width: 398px;
+    border-radius: 16px;
+    min-height: 580px;
+}
+
+.cardHeading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.cardDesc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.btn {
+    color: rgb(0, 0, 255);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px !important;
+    line-height: 24px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    border-radius: 5px !important;
+}
+
+.arrowbtm {
+    position: absolute;
+    bottom: -150px;
+    left: 90px;
+    height: 170px;
+}
+
+.col2Heading {
+    color: blue;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.col2para {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.row2{
+    width: 80%;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}

@@ -1,0 +1,115 @@
+.container {
+    background-image: url('https://res.cloudinary.com/dhznnpvlm/image/upload/v1674572175/cs.code.in.next/CS.Code_1_ojkygf.svg');
+    background-color: #F5F5F5;
+    height: 110vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 2rem;
+}
+
+.h1 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 105px;
+    margin: 0;
+}
+
+.h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0000FF;
+    margin: 0;
+    padding-top: 10rem;
+    padding-bottom: 1.5rem;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.btn {
+    background: #0000FF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding: .5rem 2rem !important;
+    margin: 0 .75rem;
+}
+
+.btnOutlined {
+    border: 1.5px solid #0000FF;
+    color: #0000FF !important;
+    background-color: #ffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding: .5rem 2rem !important;
+    margin-right: 2rem;
+}
+
+.greyBackground{
+    background-color: #F5F5F5;
+ }
+
+ .marquee{
+    /* height: 150px; */
+    position: relative;
+ }
+
+ .line{
+    border-bottom: 1.6px solid rgba(128, 128, 128, 0.308);
+    width: 100%;
+    height: 1.6px;
+    margin-top: 4.5rem;
+    position: absolute;
+    top: -14px;
+ }
+
+ .marqueeGrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.marqueeItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #ffff;
+    border: 2px solid rgba(128, 128, 128, 0.308);
+}
+
+.img{
+    height: 30px;
+}

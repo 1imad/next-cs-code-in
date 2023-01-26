@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+    background-color: transparent;
+    align-items: center;
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 0;
+    width: 94.1%;
+}
+
+.navLogo {
+    height: 60px;
+}
+
+.rightLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navlink {
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 0 .75rem
+}
+
+.btn { 
+    background: #0000FF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding: .5rem 2rem !important;
+    margin: 0 .75rem;
+ }
