@@ -1,0 +1,67 @@
+.container {}
+
+.footerHead {
+    padding: 2rem;
+    background: #0000FF;
+}
+
+.footerlogo {
+    height: 30px;
+}
+
+.para {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.socialLogo {
+    height: 24px;
+    margin: 5px;
+}
+
+.linksHeading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 32px; */
+    margin: 0;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.footerFoot {
+    text-align: center;
+    padding: 2rem;
+}
+
+.smallPara {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #3E3340;
+}

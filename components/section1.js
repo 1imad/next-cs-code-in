@@ -61,27 +61,29 @@ export default function Section1() {
                 </Col>
                 <img className={styles.arrowbtm} src={images.arrowBottom} alt="arrow-bottom" />
             </Row>
-            <Row
-                gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
-                className={styles.row2}
-            >
-                <Col span={6}>
-                    <h1 className={styles.col2Heading}>#1</h1>
-                    <p className={styles.col2para}>India’s 1st-Coding Bootcamp</p>
-                </Col>
-                <Col span={6}>
-                    <h1 className={styles.col2Heading}>5000+</h1>
-                    <p className={styles.col2para}>Graduates Worldwide</p>
-                </Col>
-                <Col span={6}>
-                    <h1 className={styles.col2Heading}>98%</h1>
-                    <p className={styles.col2para}>Employment Rate</p>
-                </Col>
-                <Col span={6}>
-                    <h1 className={styles.col2Heading}>4.94/5</h1>
-                    <p className={styles.col2para}>In Reviews</p>
-                </Col>
-            </Row>
+            <div style={{marginLeft: "10rem"}}>
+                <Row
+                    gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
+                    className={styles.row2}
+                >
+                    <Col span={6}>
+                        <h1 className={styles.col2Heading}>#1</h1>
+                        <p className={styles.col2para}>India’s 1st-Coding Bootcamp</p>
+                    </Col>
+                    <Col span={6}>
+                        <h1 className={styles.col2Heading}>5000+</h1>
+                        <p className={styles.col2para}>Graduates Worldwide</p>
+                    </Col>
+                    <Col span={6}>
+                        <h1 className={styles.col2Heading}>98%</h1>
+                        <p className={styles.col2para}>Employment Rate</p>
+                    </Col>
+                    <Col span={6}>
+                        <h1 className={styles.col2Heading}>4.94/5</h1>
+                        <p className={styles.col2para}>In Reviews</p>
+                    </Col>
+                </Row>
+            </div>
         </div>
     </div>
 }

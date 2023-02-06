@@ -1,0 +1,71 @@
+.container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.heading {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 145px;
+    text-align: center;
+    margin: 0;
+}
+
+.heading2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.backgroundRoadmap {
+    height: 900px;
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/dhznnpvlm/image/upload/v1675692922/cs.code.in.next/Group_203_cq1tha.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn {
+    background: #0000FF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding: .5rem 2rem !important;
+    margin: 0 .75rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+.rodamap {
+    padding: 10px;
+    background-color: #E7E7E7;
+    position: relative;
+    margin-top: 7rem;
+}
+
+.roadmaptext {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.roadmapImg{
+    position: absolute;
+    height: 200px;
+    left: 100px;
+    top: 120px;
+}
+
+.underline{
+    text-decoration: underline;
+}

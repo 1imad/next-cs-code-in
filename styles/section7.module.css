@@ -1,0 +1,52 @@
+.container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.heading {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100px;
+    letter-spacing: -0.02em;
+    color: #1A1A1A;
+    margin: 0;
+}
+
+.para {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.input{
+    border: 5px solid blue;
+    height: 50px;
+    width: 510px;
+    font-size: 30px;
+}
+
+.input:hover{
+    border-color: none !important;
+    border-inline-end-width: 5px !important;
+}
+
+.btn {
+    background: #0000FF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding: .5rem 2rem !important;
+    color: white;
+    margin-top: 2rem;
+    display: block;
+}

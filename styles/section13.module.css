@@ -1,0 +1,52 @@
+.container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-image: url("https://res.cloudinary.com/dhznnpvlm/image/upload/v1675724455/cs.code.in.next/dawq-min_1_1_f6n5tv.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 767px;
+    position: relative;
+}
+
+.float{
+    font-family: "League Spartan";
+    position: absolute;
+    width: 1107px;
+    height: 172px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 17px;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.float h1{
+    margin: 0;
+    font-size: 3rem;
+}
+
+.float p{
+    margin: 0;
+    margin-top: 10px;
+    line-height: 1.2rem;
+}
+
+.float .div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+    margin: 25px
+}
+
+.float .div:last-child {
+    border: none;
+  }
